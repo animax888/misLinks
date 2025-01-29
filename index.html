@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Redes Sociales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #4a90e2, #003366);
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #104888;
+            color: #fff;
+            padding: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        #profile-photo {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        #profile-photo img {
+            border-radius: 10%;
+            max-width: 200px;
+            height: auto;
+        }
+        .container {
+            margin: 30px; /* Margen de 30px alrededor del contenedor */
+            display: flex;
+            justify-content: center; /* Centra el contenido dentro del contenedor */
+        }
+        section {
+            padding: 20px;
+            max-width: 600px;
+            background-color: white;
+            border-radius: 8px;
+            width: 100%; /* Asegura que el contenedor use el 100% del ancho disponible */
+            box-sizing: border-box; /* Incluye el padding en el ancho total */
+        }
+        .social-links a {
+            display: flex; /* Change to flex to align items */
+            align-items: center; /* Center items vertically */
+            background-color: #4a90e2;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .social-links a img {
+            max-width: 50px; /* Set image size */
+            margin-right: 10px; /* Space between image and text */
+        }
+        .social-links a:hover {
+            background-color: #357ABD;
+        }
+        footer {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Redes Sociales</h1>
+    </header>
+
+    <div id="profile-photo">
+        <img src="media/coche.jpg" alt="Imagen de perfil">
+    </div>
+
+    <div class="container">
+        <section id="links">
+            <h2>Encuéntrame en</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/animax_888" target="_blank"><img src="media/icono-instagram.png" alt="Instagram">Instagram</a>
+                <a href="https://twitter.com/tuusuario" target="_blank"><img src="media/icono-twitter.png" alt="Twitter">Twitter</a>
+                <a href="https://www.threads.com/tuusuario" target="_blank"><img src="media/icono-threads.png" alt="Threads">Threads</a>
+                <a href="https://www.linkedin.com/in/tuusuario" target="_blank"><img src="media/icono-linkedin.png" alt="LinkedIn">LinkedIn</a>
+                <a href="video.html" target="_blank"><img src="media/icono-onlyfans.png" alt="OnlyFans">OnlyFans</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        2025 Aníbal Romero
+    </footer>
+</body>
+</html>
