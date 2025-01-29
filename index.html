@@ -35,15 +35,23 @@
         }
         #profile-photo img {
             border-radius: 10%;
-            max-width: 200px;
+            max-width: 300px;
             height: auto;
         }
         .container {
-            flex: 1; /* Permite que el contenedor ocupe el espacio restante */
+             
+            
             margin: 30px; /* Margen de 30px alrededor del contenedor */
             display: flex;
             justify-content: center; /* Centra el contenido dentro del contenedor */
         }
+        .relleno {
+             flex-grow: 1; 
+             
+             margin: 0px; /* Margen de 30px alrededor del contenedor */
+             display: flex;
+             justify-content: center; /* Centra el contenido dentro del contenedor */
+         }
         section {
             padding: 20px;
             max-width: 600px;
@@ -51,6 +59,7 @@
             border-radius: 8px;
             width: 100%; /* Asegura que el contenedor use el 100% del ancho disponible */
             box-sizing: border-box; /* Incluye el padding en el ancho total */
+            
         }
         .social-links a {
             display: flex; /* Change to flex to align items */
@@ -86,7 +95,7 @@
     </header>
 
     <div id="profile-photo">
-        <img src="media/coche.jpg" alt="Imagen de perfil">
+        <img src="media/fotoperfil.png" alt="Imagen de perfil">
     </div>
 
     <div class="container">
@@ -94,14 +103,16 @@
             <h2>Encuéntrame en</h2>
             <div class="social-links">
                 <a href="https://www.instagram.com/animax_888" target="_blank"><img src="media/icono-instagram.png" alt="Instagram">Instagram</a>
-                <a href="https://twitter.com/tuusuario" target="_blank"><img src="media/icono-twitter.png" alt="Twitter">Twitter</a>
-                <a href="https://www.threads.com/tuusuario" target="_blank"><img src="media/icono-threads.png" alt="Threads">Threads</a>
-                <a href="https://www.linkedin.com/in/tuusuario" target="_blank"><img src="media/icono-linkedin.png" alt="LinkedIn">LinkedIn</a>
+               
+                <a href="https://www.threads.net/@animax_888" target="_blank"><img src="media/icono-threads.png" alt="Threads">Threads</a>
+                
                 <a href="video.html" target="_blank"><img src="media/icono-onlyfans.png" alt="OnlyFans">OnlyFans</a>
             </div>
         </section>
     </div>
-
+    <div class="relleno">
+        
+    </div>
     <footer>
         2025 Aníbal Romero
     </footer>
