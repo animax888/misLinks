@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Redes Sociales</title>
     <style>
+        * {
+            box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho y alto total */
+        }
+        html, body {
+            height: 100%; /* Asegura que el body ocupe el 100% de la altura de la ventana */
+            margin: 0; /* Elimina el margen por defecto */
+        }
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background: linear-gradient(to bottom, #4a90e2, #003366);
             color: #333;
-            text-align: center;
+            display: flex;
+            flex-direction: column; /* Apila los elementos verticalmente */
         }
         header {
             background-color: #104888;
@@ -33,6 +39,7 @@
             height: auto;
         }
         .container {
+            flex: 1; /* Permite que el contenedor ocupe el espacio restante */
             margin: 30px; /* Margen de 30px alrededor del contenedor */
             display: flex;
             justify-content: center; /* Centra el contenido dentro del contenedor */
@@ -69,6 +76,7 @@
             color: #fff;
             padding: 10px;
             font-size: 0.9em;
+            text-align: center; /* Centra el texto del footer */
         }
     </style>
 </head>
