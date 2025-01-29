@@ -18,6 +18,7 @@
             color: #333;
             display: flex;
             flex-direction: column; /* Apila los elementos verticalmente */
+            min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
         }
         header {
             background-color: #104888;
@@ -39,19 +40,16 @@
             height: auto;
         }
         .container {
-             
-            
             margin: 30px; /* Margen de 30px alrededor del contenedor */
             display: flex;
             justify-content: center; /* Centra el contenido dentro del contenedor */
         }
         .relleno {
-             flex-grow: 1; 
-             
-             margin: 0px; /* Margen de 30px alrededor del contenedor */
-             display: flex;
-             justify-content: center; /* Centra el contenido dentro del contenedor */
-         }
+            flex-grow: 1; 
+            margin: 0px; /* Margen de 30px alrededor del contenedor */
+            display: flex;
+            justify-content: center; /* Centra el contenido dentro del contenedor */
+        }
         section {
             padding: 20px;
             max-width: 600px;
@@ -59,7 +57,6 @@
             border-radius: 8px;
             width: 100%; /* Asegura que el contenedor use el 100% del ancho disponible */
             box-sizing: border-box; /* Incluye el padding en el ancho total */
-            
         }
         .social-links a {
             display: flex; /* Change to flex to align items */
@@ -103,16 +100,12 @@
             <h2>Encuéntrame en</h2>
             <div class="social-links">
                 <a href="https://www.instagram.com/animax_888" target="_blank"><img src="media/icono-instagram.png" alt="Instagram">Instagram</a>
-               
                 <a href="https://www.threads.net/@animax_888" target="_blank"><img src="media/icono-threads.png" alt="Threads">Threads</a>
-                
                 <a href="video.html" target="_blank"><img src="media/icono-onlyfans.png" alt="OnlyFans">OnlyFans</a>
             </div>
         </section>
     </div>
-    <div class="relleno">
-        
-    </div>
+    <div class="relleno"></div>
     <footer>
         2025 Aníbal Romero
     </footer>
